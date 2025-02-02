@@ -2,6 +2,6 @@ services:
   mytest:
    build: 
     context: ./
-	dockerfile: Dockerfile
+    dockerfile: Dockerfile
    image: mytest:v1.0
    ports: 8081:8081
